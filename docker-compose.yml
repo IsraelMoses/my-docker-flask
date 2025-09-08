@@ -1,0 +1,10 @@
+﻿services:
+  web:
+    build: .
+    ports:
+      - "5000:5000"
+  tests:
+    build:
+      context: ./tests
+    depends_on:
+      - web
