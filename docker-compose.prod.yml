@@ -1,5 +1,5 @@
 ﻿services:
   web:
-    image: YOUR_DOCKERHUB_USER/my-docker-flask:latest
+    image: israel770/my-docker-flask:latest
     ports:
       - "5000:5000"
